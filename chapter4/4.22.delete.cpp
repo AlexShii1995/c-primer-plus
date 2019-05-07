@@ -12,6 +12,7 @@ int main()
 	
 	name = getname();
 	cout << name << " at " << (int *) name << "\n";
+	cout << "git test..." << endl;
 	delete name;
 	return 0;
 }
